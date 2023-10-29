@@ -2,7 +2,7 @@
 <html lang='en'>
   <head>
     <meta charset='utf-8' />
-    <title>Getting started with the Mapbox Directions API</title>
+    <title>Map</title>
     <meta name='viewport' content='width=device-width, initial-scale=1' />
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.js'></script>
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.css' rel='stylesheet' />
@@ -27,13 +27,13 @@
       const map = new mapboxgl.Map({
         container: 'map',
         style: 'mapbox://styles/mapbox/streets-v12',
-        center: [-78.9854, 35.9038], // starting position
-        zoom: 12
+        center: [-78.98710862088534, 35.90671099845293], // starting position
+        zoom: 18
       });
       // set the bounds of the map
       /*const bounds = [
-        [-123.069003, 45.395273],
-        [-122.303707, 45.612333]
+        [-78.99959513564794, 35.91183270180578],
+        [-78.9666823610948, 35.89592600707226]
       ];
       map.setMaxBounds(bounds);*/
 
@@ -95,7 +95,7 @@
               'line-opacity': 0.75
             }
           });
-      }
+        }
         // add turn instructions here at the end
       }
 
@@ -124,47 +124,122 @@
               ]
             }
           },
-          paint: {
-            'circle-radius': 10,
-            'circle-color': '#3887be'
-          }
+          
         });
         // this is where the code from the next step will go
-        const coords = [-78.9, 35.9];
-        map.addLayer({
-          id: 'end',
-          type: 'circle',
-          source: {
-            type: 'geojson',
-            data: {
-              type: 'FeatureCollection',
-              features: [
-                {
-                  type: 'Feature',
-                  properties: {},
-                  geometry: {
-                    type: 'Point',
-                    coordinates: coords
-                  }
-                }
-              ]
-            }
-          },
-          paint: {
-            'circle-radius': 10,
-            'circle-color': '#3887be'
-          }
-        });
+        const coords = [-78.98694265524334, 35.908874674733234];
         
+        const marker = new mapboxgl.Marker({
+        color: "#2986cc",
+        draggable: true
+        }).setLngLat([-78.98703709920025, 35.90889288977432])
+        .addTo(map);
+
+        const marker2 = new mapboxgl.Marker({
+        color: "#ffd966",
+        draggable: true
+        }).setLngLat([-78.98823579127333, 35.90855188553118])
+        .addTo(map);
+
+        const marker3 = new mapboxgl.Marker({
+        color: "#7fff00 ",
+        draggable: true
+        }).setLngLat([-78.98890123180843,35.90796249795638])
+        .addTo(map);
+        
+        const marker4 = new mapboxgl.Marker({
+        color: "#7fff00",
+        draggable: true
+        }).setLngLat([-78.9888636808844, 35.905490174388596])
+        .addTo(map);
+        
+        const marker5 = new mapboxgl.Marker({
+        color: "#7fff00",
+        draggable: true
+        }).setLngLat([-78.98854181577062, 35.905029592359526])
+        .addTo(map);
+        
+        const marker6 = new mapboxgl.Marker({
+        color: "#ffd966",
+        draggable: true
+        }).setLngLat([-78.98758158495275, 35.904212704496906])
+        .addTo(map);
+        
+        const marker7 = new mapboxgl.Marker({
+        color: "#7fff00 ",
+        draggable: true
+        }).setLngLat([-78.98721680453542, 35.904303953027025])
+        .addTo(map);
+        
+        const marker8 = new mapboxgl.Marker({
+        color: "#ffd966",
+        draggable: true
+        }).setLngLat([-78.98668572716313, 35.904330024016325])
+        .addTo(map);
+        
+        const marker9 = new mapboxgl.Marker({
+        color: "#ffd966",
+        draggable: true
+        }).setLngLat([-78.98626193814889, 35.904047587841596])
+        .addTo(map);
+        
+        const marker10 = new mapboxgl.Marker({
+        color: "#7fff00",
+        draggable: true
+        }).setLngLat([-78.98597762400009, 35.90392157753078])
+        .addTo(map);
+
+        const marker11 = new mapboxgl.Marker({
+        color: "#2986cc",
+        draggable: true
+        }).setLngLat([-78.98550960594046, 35.9038285287576])
+        .addTo(map);
+
+        const marker12 = new mapboxgl.Marker({
+        color: "#f44336",
+        draggable: true
+        }).setLngLat([-78.9878922572957, 35.904595478082435])
+        .addTo(map);
+
+        const marker13 = new mapboxgl.Marker({
+        color: "#f44336",
+        draggable: true
+        }).setLngLat([-78.99015604171034, 35.9064725604705])
+        .addTo(map);
+
+        const marker14 = new mapboxgl.Marker({
+        color: "#f44336",
+        draggable: true
+        }).setLngLat([-78.989791261293, 35.906168406629305])
+        .addTo(map);
+
+        const marker15 = new mapboxgl.Marker({
+        color: "#f44336",
+        draggable: true
+        }).setLngLat([-78.99005867346138, 35.90738935997621])
+        .addTo(map);
+
+        const marker16 = new mapboxgl.Marker({
+        color: "#f44336",
+        draggable: true
+        }).setLngLat([-78.99036592399756, 35.90787786630433])
+        .addTo(map);
+
+        const marker17 = new mapboxgl.Marker({
+        color: "#f44336",
+        draggable: true
+        }).setLngLat([-78.99104490970748, 35.90709441131169])
+        .addTo(map);
+
+        const marker18 = new mapboxgl.Marker({
+        color: "#f44336",
+        draggable: true
+        }).setLngLat([-78.9906845541613, 35.906353962407515])
+        .addTo(map);
+
+        
+       
         getRoute(coords);
-        
-
-    
-
-
-
-
-        
       });
     </script>
   </body>
