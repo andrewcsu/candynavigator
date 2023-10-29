@@ -1,0 +1,135 @@
+[{
+  "_id": {
+    "$oid": "653d76b7d49558d2e9fdadcf"
+  },
+  "houseId": 0,
+  "userId": 0,
+  "address": "6602 Falconbridge Rd",
+  "city": "Chapel Hill",
+  "state": "NC",
+  "zip": 27517,
+  "country": "USA",
+  "rating": 5,
+  "review": "Good Candy",
+  "coord": "35.90384087116874, -78.98547922250006"
+},
+{
+  "_id": {
+    "$oid": "653da0f5d49558d2e9fdadd4"
+  },
+  "houseId": 1,
+  "userId": 0,
+  "address": "6614 Falconbridge Rd",
+  "city": "Chapel Hill",
+  "state": "NC",
+  "zip": 27517,
+  "country": "USA",
+  "rating": 4,
+  "review": "Alright Candy",
+  "coord": "35.90334808952573, -78.98597352889469"
+},
+{
+  "_id": {
+    "$oid": "653da124d49558d2e9fdadd5"
+  },
+  "houseId": 2,
+  "userId": 0,
+  "address": "6605 Huntingridge Rd",
+  "city": "Chapel Hill",
+  "state": "NC",
+  "zip": 27517,
+  "country": "USA",
+  "rating": 1,
+  "review": "Gave Toothpaste",
+  "coord": "35.90243951683487, -78.98561231783522"
+},
+{
+  "_id": {
+    "$oid": "653da246d49558d2e9fdadd6"
+  },
+  "houseId": 3,
+  "userId": 0,
+  "address": "6519 Huntingridge Rd",
+  "city": "Chapel Hill",
+  "state": "NC",
+  "zip": 27517,
+  "country": "USA",
+  "rating": 3,
+  "review": "Not too bad",
+  "coord": "35.90331729012017, -78.98688608363388"
+},
+{
+  "_id": {
+    "$oid": "653da28ed49558d2e9fdadd7"
+  },
+  "houseId": 4,
+  "userId": 0,
+  "address": "6507 Huntingridge Rd",
+  "city": "Chapel Hill",
+  "state": "NC",
+  "zip": 27517,
+  "country": "USA",
+  "rating": 5,
+  "review": "Not too bad",
+  "coord": "35.90381007061524, -78.98746594310816"
+},
+{
+  "_id": {
+    "$oid": "653da814b682c8b0ff84c0d1"
+  },
+  "houseId": 5,
+  "userId": 1,
+  "address": "2415 Shallowford Ln",
+  "city": "Chapel Hill",
+  "state": "NC",
+  "zip": 27517,
+  "country": "USA",
+  "rating": 5,
+  "review": "Lots of candy",
+  "coord": "35.90411593444248, -78.9875551652796"
+},
+{
+  "_id": {
+    "$oid": "653da942b682c8b0ff84c0d2"
+  },
+  "houseId": 6,
+  "userId": 1,
+  "address": "6502 Huntingridge Rd",
+  "city": "Chapel Hill",
+  "state": "NC",
+  "zip": 27517,
+  "country": "USA",
+  "rating": 5,
+  "review": "Good amount of candy",
+  "coord": "35.903935193636606, -78.98826392583175"
+},
+{
+  "_id": {
+    "$oid": "653da9a2b682c8b0ff84c0d3"
+  },
+  "houseId": 7,
+  "userId": 2,
+  "address": "2409 Shallowford Ln",
+  "city": "Chapel Hill",
+  "state": "NC",
+  "zip": 27517,
+  "country": "USA",
+  "rating": 4,
+  "review": "Fun sized bags",
+  "coord": "35.90429114696675, -78.98718725025289"
+},
+{
+  "_id": {
+    "$oid": "653da9cdb682c8b0ff84c0d4"
+  },
+  "houseId": 8,
+  "userId": 2,
+  "address": "2416 Shallowford Ln",
+  "city": "Chapel Hill",
+  "state": "NC",
+  "zip": 27517,
+  "country": "USA",
+  "rating": 4,
+  "review": "Medium selection of candy",
+  "coord": "35.90463322885263, -78.98782802458561"
+}]
