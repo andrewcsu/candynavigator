@@ -4,8 +4,11 @@
   "description": "Halloween House Navigator",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js"
+    "start": "node server.js",
+    "test": "node server.js",
+    "build": "cd client && npm install && npm run build"
   },
+  "proxy": "http://localhost:3001",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/andrewcsu/candynavigator.git"
@@ -20,5 +23,10 @@
   "bugs": {
     "url": "https://github.com/andrewcsu/candynavigator/issues"
   },
-  "homepage": "https://github.com/andrewcsu/candynavigator#readme"
+  "homepage": "https://github.com/andrewcsu/candynavigator#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongodb": "^6.2.0",
+    "react": "^18.2.0"
+  }
 }
